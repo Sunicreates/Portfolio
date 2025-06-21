@@ -97,7 +97,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <ProjectCard
               title="52 Projects in 52 Weeks"
-              description="A comprehensive collection showcasing diverse web development projects built with modern technologies and creative solutions."
+              description="A website made for people who like to challenge themselves to build 52 projects in a year."
               link="https://project52-beta.vercel.app/"
               image={undefined}
               tech={["React", "JavaScript", "CSS3", "Vercel"]}
