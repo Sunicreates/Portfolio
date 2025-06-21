@@ -50,10 +50,10 @@ const ContactSection = () => {
             Get In Touch
           </a>
           <a
-            href="sunilcodes2005@gmail.com"
+            href="https://x.com/itsmeSunil12078?t=BuQMFotAkZLEx7vq2oz4WA&s=09"
             className="px-8 py-4 bg-transparent border-2 border-purple-500 text-purple-400 hover:bg-purple-500 hover:text-white rounded-lg font-medium transition-all duration-300 hover:scale-105"
           >
-            Gmail
+            Twitter
           </a>
         </div>
       </div>
