@@ -71,9 +71,9 @@ const Index = () => {
             About Me
           </h2>
           <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-            I'm a passionate Full Stack Developer and Machine Learning enthusiast with expertise in the MERN stack, 
-            Python, NLP, and modern web technologies. I love creating innovative solutions that blend cutting-edge 
-            technology with beautiful user experiences.
+            I'm a Banglaore based Full Stack Developer and Machine Learning enthusiast with expertise in the MERN stack, 
+            Python and Nlp.I aim to create scalable and robust solutions to problems.My strong commitment and determination
+            towards work makes me a valuable asset.I am flexible and always eager to adapt to new challenges and technologies.
           </p>
         </div>
       </section>
