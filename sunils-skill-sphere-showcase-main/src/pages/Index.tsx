@@ -112,13 +112,13 @@ const Index = () => {
             <ProjectCard
               title="Complaint Classifier"
               description="Can be used as a feature to solve queries from customers easier"
-              link="https://fashionindeploy.vercel.app/"
+              link="https://www.linkedin.com/in/sunil-kumar-83a286317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               tech={["Pytorch", "Flask", "MERN", "Python"]}
             />
             <ProjectCard
               title="Redditor"
               description="A application made for developers and redditors for web scraping "
-              link="https://fashionindeploy.vercel.app/"
+              link="https://www.linkedin.com/in/sunil-kumar-83a286317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               tech={["React", "Praw", "Tessaract", "Hugging Face"]}
             />
 
