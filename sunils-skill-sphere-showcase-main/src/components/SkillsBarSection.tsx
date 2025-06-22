@@ -26,7 +26,7 @@ const SkillsBarSection: React.FC = () => {
             <div
               key={skill.name}
               className={`flex items-center px-5 py-2 rounded-full bg-[#232323] text-white text-lg font-semibold shadow border border-[#333] relative overflow-hidden animate-skill-move-${direction}`}
-              style={{ minWidth: 0, animationDuration: `${4 + (i % 3)}s`, animationIterationCount: 'infinite', animationTimingFunction: 'linear' }}
+              style={{ minWidth: 0, animationDuration: `${8 + (i % 3) * 2}s`, animationIterationCount: 'infinite', animationTimingFunction: 'linear' }}
             >
               <span
                 className="inline-block w-3 h-3 rounded-full mr-3"
