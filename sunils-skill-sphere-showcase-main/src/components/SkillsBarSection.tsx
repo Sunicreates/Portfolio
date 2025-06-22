@@ -1,18 +1,18 @@
 import React from 'react';
 
 const skills = [
-  { name: 'PyTorch', color: '#ee4c2c' },
+  { name: 'React', color: '#ee4c2c' },
   { name: 'MongoDB', color: '#4DB33D' },
   { name: 'JavaScript', color: '#f7df1e' },
   { name: 'TypeScript', color: '#3178c6' },
-  { name: 'Python', color: '#3776ab' },
-  { name: 'RAG', color: '#a259fa' },
-  { name: 'NLP', color: '#ff8c42' },
-  { name: 'CNN', color: '#ff6b35' },
-  { name: 'scikit-learn', color: '#f7931e' },
-  { name: 'Hugging Face', color: '#ffcd38' },
-  { name: 'Llama Index', color: '#8b5cf6' },
-  { name: 'Pipeline', color: '#06b6d4' },
+  { name: 'Express.js', color: '#3776ab' },
+  { name: 'Tailwind CSS', color: '#a259fa' },
+  { name: 'SQL', color: '#ff8c42' },
+  { name: 'Git', color: '#ff6b35' },
+  { name: 'Python', color: '#f7931e' },
+  { name: 'Pytorch', color: '#ffcd38' },
+  { name: 'Node.js', color: '#8b5cf6' },
+  { name: 'Azure', color: '#06b6d4' },
 
 ];
 
