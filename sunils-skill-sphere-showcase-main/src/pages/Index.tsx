@@ -35,7 +35,7 @@ const Index = () => {
                 7829199874
               </span>
               <span className="flex items-center gap-2">
-                <Mail className="w-4 h-4" />
+                <Mail href="mailto:sunilcodes2005@gmail.com" className="w-4 h-4" />
                 sunilcodes2005@gmail.com
               </span>
             </div>
