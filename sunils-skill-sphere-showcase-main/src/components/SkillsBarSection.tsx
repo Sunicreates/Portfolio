@@ -23,50 +23,23 @@ const skillColors: Record<string, string> = {
 
 const SkillsBarSection: React.FC = () => {
   return (
-    <div className="w-full flex flex-col items-center py-8 space-y-6">
-      {skills.map((row, rowIndex) => {
-        const direction = rowIndex % 2 === 0 ? 'right' : 'left';
-        return (
-          <div
-            key={rowIndex}
-            className={`flex space-x-4 whitespace-nowrap animate-skill-move-${direction}`}
-            style={{
-              animationDuration: `${15 + rowIndex * 5}s`,
-              animationIterationCount: 'infinite',
-              animationTimingFunction: 'linear',
-            }}
-          >
-            {row.map((skill) => (
-              <div
-                key={skill}
-                className="flex items-center px-5 py-2 rounded-full bg-[#232323] text-white text-base font-medium shadow border border-[#333] min-w-[120px]"
-              >
-                <span
-                  className="inline-block w-3 h-3 rounded-full mr-3"
-                  style={{ backgroundColor: skillColors[skill] }}
-                ></span>
-                <span className="truncate">{skill}</span>
-              </div>
-            ))}
-          </div>
-        );
-      })}
-      <style>{`
-        @keyframes skill-move-right {
-          0% { transform: translateX(-100%); }
-          100% { transform: translateX(100%); }
-        }
-        @keyframes skill-move-left {
-          0% { transform: translateX(100%); }
-          100% { transform: translateX(-100%); }
-        }
-        .animate-skill-move-right {
-          animation-name: skill-move-right;
-        }
-        .animate-skill-move-left {
-          animation-name: skill-move-left;
-        }
-      `}</style>
+    <div className="w-full flex flex-col items-center py-8 space-y-4">
+      {skills.map((row, rowIndex) => (
+        <div key={rowIndex} className="flex flex-wrap justify-center gap-4">
+          {row.map((skill) => (
+            <div
+              key={skill}
+              className="flex items-center px-5 py-2 rounded-full bg-[#232323] text-white text-base font-medium shadow border border-[#333] min-w-[120px]"
+            >
+              <span
+                className="inline-block w-3 h-3 rounded-full mr-3"
+                style={{ backgroundColor: skillColors[skill] }}
+              ></span>
+              <span className="truncate">{skill}</span>
+            </div>
+          ))}
+        </div>
+      ))}
     </div>
   );
 };
