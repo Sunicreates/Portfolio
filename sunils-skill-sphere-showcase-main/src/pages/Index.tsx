@@ -100,7 +100,7 @@ const Index = () => {
               description="A website made for people who like to challenge themselves to build 52 projects in a year."
               link="https://project52-beta.vercel.app/"
               image={undefined}
-              tech={["React", "JavaScript", "CSS3", "Vercel"]}
+              tech={["React", "JavaScript", "TailwindCSS", "MongoDB"]}
             />
             <ProjectCard
               title="Fashion City"
